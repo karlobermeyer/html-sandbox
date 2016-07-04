@@ -41,9 +41,25 @@ body {
 }
 
 footer {
+  /*margin: 1em auto 0 auto;*/
   text-align: center;
   margin-top: 1.5em;
 }
+
+/*
+.copyright {
+  margin: 4px;
+  min-width: 16em;
+}
+
+.social {
+  font-size: 0.8em;
+}
+
+.social .icon {
+  margin: 4px;
+}
+*/
 
 .indent {
   text-indent: 30px;
