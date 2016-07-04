@@ -1,0 +1,14 @@
+sim
+*.pyc
+*.aux
+*.log
+*.pdf
+*.log
+*build*
+*build*/
+.DS_Store
+*.swp
+*~
+#*#
+images
+node_modules
