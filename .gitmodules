@@ -1,6 +1,0 @@
-[submodule "normalize"]
-	path = normalize
-	url = git@github.com:karlobermeyer/normalize.css.git
-[submodule "zocial"]
-	path = zocial
-	url = git@github.com:karlobermeyer/css-social-buttons.git
