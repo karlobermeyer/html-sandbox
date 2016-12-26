@@ -19,6 +19,7 @@ find . -type d -exec chmod 755 {} \;
 # 4 => others can r
 find . -type f -exec chmod 644 {} \;
 
-# Restore owner-executability of this script
-chmod u+x ./setperms
+# Restore owner-executability of script(s)
+#find . -name "*.sh" -exec chmod u+x {} \;
+chmod u+x ./setperms.sh
 
