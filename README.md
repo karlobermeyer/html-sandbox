@@ -3,7 +3,7 @@
 
 ## Table of Contents
 * Getting Started
-* Usage
+* Using
 * Contribution Guidelines
 * Known Bugs
 * FAQ
@@ -25,8 +25,28 @@ Before you can use Grunt, you need to run
 `$ npm install grunt-responsive-images --save`
 
 
-## Usage
-. . .
+## Using
+
+### Setup
+
+1. Set permissions  
+`$ ./setperms.sh`
+
+2. Allow HTTP.  
+`$ sudo ufw allow http`
+
+3. Serve.  
+`$ python3 -m http.server 80`
+
+### Takedown
+
+1. Stop serving with ctrl+c.
+
+2. Deny HTTP.  
+`$ sudo ufw deny http`
+
+3. Confirm denial.  
+`$ sudo ufw status`
 
 
 ## Contribution Guidelines
